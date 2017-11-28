@@ -1,19 +1,18 @@
 ##### Objective:
-* find the solution to Replace all dots
+* find the solution to take two names and abbreviate them with the first initial.
 * Create a readme file to include problem domain and link to Code Wars challenge
 
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/fixme-replace-all-dots
+* https://www.codewars.com/kata/abbreviate-a-two-word-name/train/javascript
 
-##### Instructions from Code Wars for Replace All Dots:
-        The code provided is supposed replace all the dots . in the specified String str with           dashes -
+##### Instructions from Code Wars for Abbreviate a two word name:
+        Write a function to convert a name into initials. This kata strictly takes
+        two words with one space in between them.
 
-        But it's not working properly.
+        The output should be two capital letters with a dot seperating them.
 
-        Task
+        It should look like this:
 
-        Fix the bug so we can all go home early.
+        Sam Harris => S.H
 
-        Notes
-
-        String str will never be null.
+        Patrick Feeney => P.F
