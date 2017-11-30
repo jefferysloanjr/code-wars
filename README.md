@@ -1,10 +1,10 @@
+#### Objective:
+1. Any consecutive odd number you will add a dash to separate them.
+2. Create a function that will insert dashes between those numbers.
+3. Find solution with green passing. 
+
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/my-head-is-at-the-wrong-end/train/javascript
+* https://www.codewars.com/kata/insert-dashes/train/javascript
 
-##### Instructions from Code Wars for my head is at the wrong end:
-        You're at the zoo... all the meerkats look weird. Something has gone terribly wrong -           someone has gone and switched their heads and tails around!
-
-        Save the animals by switching them back. You will be given an array which will have             three values (tail, body, head). It is your job to re-arrange the array so that
-                the animal is the right way round (head, body, tail).
-
-        Same goes for all the other arrays/lists that you will get in the tests: you have to            change the element positions with the same exact logics - simples!
+##### Instructions from Code Wars for insert dashes:
+        Write a function insertDash(num)/InsertDash(int num) that will insert dashes ('-') between each two odd numbers in num. For example: if num is 454793 the output should be 4547-9-3. Don't count zero as an odd number.
