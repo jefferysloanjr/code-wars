@@ -1,10 +1,15 @@
 #### Objective:
-1. Any consecutive odd number you will add a dash to separate them.
-2. Create a function that will insert dashes between those numbers.
-3. Find solution with green passing. 
+1. Using Regex complete the function to validate usernames based on criteria in the instructions.
+2. Find solution with green passing.
 
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/insert-dashes/train/javascript
+* https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
 
 ##### Instructions from Code Wars for insert dashes:
-        Write a function insertDash(num)/InsertDash(int num) that will insert dashes ('-') between each two odd numbers in num. For example: if num is 454793 the output should be 4547-9-3. Don't count zero as an odd number.
+      Write a simple regex to validate a username.
+
+      Allowed characters are:
+
+      -lowercase letters -numbers -underscore
+
+      length should be between 4 and 16 characters.
