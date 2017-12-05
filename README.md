@@ -1,19 +1,22 @@
 #### Objective:
-1. Using Regex complete the function to validate pin code based on criteria in the instructions.
+1. Using what we have learned complete the function.
 2. Find solution with green passing.
 
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/regex-validate-pin-code/train/javascript
+* https://www.codewars.com/kata/nice-array/train/javascript
 
-##### Instructions from Code Wars for validate pin code:
-      ATM machines allow 4 or 6 digit PIN codes and PIN codes
-      cannot contain anything but exactly 4 digits or exactly 6 digits.
+##### Instructions from Code Wars for nice array:
+        A Nice array is defined to be an array where for every value n in the array,
+        there is also an element n-1 or n+1 in the array.
 
-      If the function is passed a valid PIN string, return true,
-      else return false.
+        example:
 
-      eg:
+        [2,10,9,3] is Nice array because
 
-      validatePIN("1234") === true
-      validatePIN("12345") === false
-      validatePIN("a234") === false
+        2=3-1
+        10=9+1
+        3=2+1
+        9=10-1
+        Write a function named isNice/IsNice that returns true if its
+        array argument is a Nice array, else false. You should also
+        return false if input array has no elements.
