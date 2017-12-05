@@ -1,8 +1,15 @@
 'use strict';
 
-// solution for validate pin code with green passing.
+// solution for nice array with green passing.
 
-function validatePIN (pin) {
-  return /^(\d{4}|\d{6})$/.test(pin);
-  //return true or false
+function isNice(arr){
+let flag = true;
+if (arr.length<1){
+  flag = false}
+ arr.forEach(function(i) {
+    if ((arr.includes(i + 1))||(arr.includes(i - 1))) {
+  } else {
+    flag = false}
+    })
+  return flag
 }
