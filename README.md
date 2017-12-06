@@ -3,20 +3,18 @@
 2. Find solution with green passing.
 
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/nice-array/train/javascript
+* https://www.codewars.com/kata/disemvowel-trolls/train/javascript
 
-##### Instructions from Code Wars for nice array:
-        A Nice array is defined to be an array where for every value n in the array,
-        there is also an element n-1 or n+1 in the array.
+##### Instructions from Code Wars for disemvowel trolls:
+        Trolls are attacking your comment section!
 
-        example:
+        A common way to deal with this situation is to remove all of the vowels
+        from the trolls' comments, neutralizing the threat.
 
-        [2,10,9,3] is Nice array because
+        Your task is to write a function that takes a string and return a new
+        string with all vowels removed.
 
-        2=3-1
-        10=9+1
-        3=2+1
-        9=10-1
-        Write a function named isNice/IsNice that returns true if its
-        array argument is a Nice array, else false. You should also
-        return false if input array has no elements.
+        For example, the string "This website is for losers LOL!" would
+        become "Ths wbst s fr lsrs LL!".
+
+        Note: for this kata y isn't considered a vowel.
