@@ -3,18 +3,16 @@
 2. Find solution with green passing.
 
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/disemvowel-trolls/train/javascript
+* https://www.codewars.com/kata/format-words-into-a-sentence/train/javascript
 
-##### Instructions from Code Wars for disemvowel trolls:
-        Trolls are attacking your comment section!
+##### Instructions from Code Wars for form a word into a sentence trolls:
+          Complete the method so that it formats the words into a single comma
+          separated value. The last word should be separated by the word 'and'
+          instead of a comma. The method takes in an array of strings and
+          returns a single formatted string. Empty string values should be
+          ignored. Empty arrays or null/nil values being passed into the
+          method should result in an empty string being returned.
 
-        A common way to deal with this situation is to remove all of the vowels
-        from the trolls' comments, neutralizing the threat.
-
-        Your task is to write a function that takes a string and return a new
-        string with all vowels removed.
-
-        For example, the string "This website is for losers LOL!" would
-        become "Ths wbst s fr lsrs LL!".
-
-        Note: for this kata y isn't considered a vowel.
+          formatWords(['ninja', 'samurai', 'ronin']) // should return "ninja, samurai and ronin"
+          formatWords(['ninja', '', 'ronin']) // should return "ninja and ronin"
+          formatWords([]) // should return ""

@@ -1,7 +1,7 @@
 'use strict';
 
-// solution for disemvowel with green passing.
+// solution for form a word into a sentence with green passing.
 
-function disemvowel(str) {
-  return str.replace(/[aeiou]/gi, '');
+function formatWords(words){
+  return words ? words.join(' ').trim().replace(/(\s+)/g, ', ').replace(/, (\w+$)/g, ' and $1') : '';
 }
