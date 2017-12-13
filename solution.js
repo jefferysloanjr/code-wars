@@ -1,15 +1,12 @@
 'use strict';
 
-// solution for nice array with green passing.
+// solution for alternate capitalization with green passing.
 
-function isNice(arr){
-let flag = true;
-if (arr.length<1){
-  flag = false}
- arr.forEach(function(i) {
-    if ((arr.includes(i + 1))||(arr.includes(i - 1))) {
-  } else {
-    flag = false}
-    })
-  return flag
-}
+function capitalize(str){
+  let odd ='';
+  let even ='';
+  str.split('').forEach((val, i) =>
+    (i % 2) ? (odd += val.toUpperCase(), even += val) : (even += val.toUpperCase(), odd += val)
+  );
+  return [even, odd];
+};
