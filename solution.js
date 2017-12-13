@@ -1,6 +1,6 @@
 'use strict';
 
-// solution for alternate capitalization with green passing.
+// solution for highest scoring word with green passing.
 
 function capitalize(str){
   let odd ='';
