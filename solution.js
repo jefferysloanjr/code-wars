@@ -2,15 +2,12 @@
 
 // solution for mutate my string with green passing.
 
+function high(str){
+  return str.split(' ')
+            .sort((a,b)=>calc(a)<calc(b))[0]
+}
 
-function mutateMyStrings(stringOne, stringTwo){
-  let makeOne = stringOne.split(''), makeTwo = stringTwo.split('');
-  let mutate = stringOne.concat('\n');
-  for (let i = 0; i < makeOne.length; i++) {
-    if (makeOne[i] !== makeTwo[i]) {
-      makeOne[i] = makeTwo[i];
-      mutate = mutate.concat(`${makeOne.join('')}\n`);
-    }
-  }
-  return mutate;
+function calc(word) {
+  return [...word].map(e=>e.charCodeAt(0)-96)
+                  .reduce((x,y)=>x+y, 0)
 }
