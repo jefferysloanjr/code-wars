@@ -3,17 +3,22 @@
 2. Find solution with green passing.
 
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/alternate-capitalization/train/javascript
+* https://www.codewars.com/kata/mutate-my-strings/train/javascript
 
-##### Instructions from Code Wars for nice array:
+##### Instructions from Code Wars for mutate my string:
 
-          Given a string, capitalize the letters that occupy even indexes and
-          odd indexes separately, and return as shown below. Index 0 will be
-          considered even.
+        I will give you two strings. I want you to transform stringOne
+        into stringTwo one letter at a time.
 
-          For example, capitalize("abcdef") = ['AbCdEf', 'aBcDeF']. See test
-          cases for more examples.
+        Example:
 
-          The input will be a lowercase string with no spaces.
+        stringOne = 'bubble gum';
+        stringTwo = 'turtle ham';
 
-          Good luck!
+        Result:
+        bubble gum
+        tubble gum
+        turble gum
+        turtle gum
+        turtle hum
+        turtle ham
