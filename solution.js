@@ -1,6 +1,6 @@
 'use strict';
 
-// solution for highest scoring word with green passing.
+// solution for mutate my string with green passing.
 
 function high(str){
   return str.split(' ')

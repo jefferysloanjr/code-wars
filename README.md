@@ -3,18 +3,24 @@
 2. Find solution with green passing.
 
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/highest-scoring-word/train/javascript
+* https://www.codewars.com/kata/mutate-my-strings/train/javascript
 
-##### Instructions from Code Wars for nice array:
 
-          Given a string of words, you need to find the highest scoring word.
+##### Instructions from Code Wars for mutate my string:
 
-          Each letter of a word scores points according to it's position in
-          the alphabet: a = 1, b = 2, c = 3 etc.
 
-          You need to return the highest scoring word as a string.
+        I will give you two strings. I want you to transform stringOne
+        into stringTwo one letter at a time.
 
-          If two words score the same, return the word that appears earliest
-          in the original string.
+        Example:
 
-          All letters will be lowercase and all inputs will be valid.
+        stringOne = 'bubble gum';
+        stringTwo = 'turtle ham';
+
+        Result:
+        bubble gum
+        tubble gum
+        turble gum
+        turtle gum
+        turtle hum
+        turtle ham
