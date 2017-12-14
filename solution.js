@@ -1,12 +1,16 @@
 'use strict';
 
-// solution for highest scoring word with green passing.
+// solution for mutate my string with green passing.
 
-function capitalize(str){
-  let odd ='';
-  let even ='';
-  str.split('').forEach((val, i) =>
-    (i % 2) ? (odd += val.toUpperCase(), even += val) : (even += val.toUpperCase(), odd += val)
-  );
-  return [even, odd];
-};
+
+function mutateMyStrings(stringOne, stringTwo){
+  let makeOne = stringOne.split(''), makeTwo = stringTwo.split('');
+  let mutate = stringOne.concat('\n');
+  for (let i = 0; i < makeOne.length; i++) {
+    if (makeOne[i] !== makeTwo[i]) {
+      makeOne[i] = makeTwo[i];
+      mutate = mutate.concat(`${makeOne.join('')}\n`);
+    }
+  }
+  return mutate;
+}
