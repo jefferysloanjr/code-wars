@@ -2,11 +2,12 @@
 
 // solution for highest scoring word with green passing.
 
-function capitalize(str){
-  let odd ='';
-  let even ='';
-  str.split('').forEach((val, i) =>
-    (i % 2) ? (odd += val.toUpperCase(), even += val) : (even += val.toUpperCase(), odd += val)
-  );
-  return [even, odd];
-};
+function high(str){
+  return str.split(' ')
+            .sort((a,b)=>calc(a)<calc(b))[0]
+}
+
+function calc(word) {
+  return [...word].map(e=>e.charCodeAt(0)-96)
+                  .reduce((x,y)=>x+y, 0)
+}
