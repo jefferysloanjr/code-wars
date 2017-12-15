@@ -5,7 +5,7 @@
 ##### Link to Code Wars challenge:
 * https://www.codewars.com/kata/indexed-capitalization/train/javascript
 
-##### Instructions from Code Wars for nice array:
+
 
           Given a string and an array of integers representing indices,
           capitalize all letters at the given indices.
