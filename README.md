@@ -3,18 +3,24 @@
 2. Find solution with green passing.
 
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/highest-scoring-word/train/javascript
+* https://www.codewars.com/kata/indexed-capitalization/train/javascript
 
 ##### Instructions from Code Wars for nice array:
 
-          Given a string of words, you need to find the highest scoring word.
+          Given a string and an array of integers representing indices,
+          capitalize all letters at the given indices.
 
-          Each letter of a word scores points according to it's position in
-          the alphabet: a = 1, b = 2, c = 3 etc.
+          For example:
 
-          You need to return the highest scoring word as a string.
+          capitalize("abcdef",[1,2,5]) = "aBCdeF"
+          capitalize("abcdef",[1,2,5,100]) = "aBCdeF". There is no index 100.
+          The input will be a lowercase string with no spaces and an array
+          of digits.
 
-          If two words score the same, return the word that appears earliest
-          in the original string.
+          Good luck!
 
-          All letters will be lowercase and all inputs will be valid.
+          Be sure to also try:
+
+          Alternate capitalization
+
+          String array revisal
