@@ -3,24 +3,24 @@
 2. Find solution with green passing.
 
 ##### Link to Code Wars challenge:
-* https://www.codewars.com/kata/mutate-my-strings/train/javascript
+* https://www.codewars.com/kata/indexed-capitalization/train/javascript
 
 
-##### Instructions from Code Wars for mutate my string:
 
+          Given a string and an array of integers representing indices,
+          capitalize all letters at the given indices.
 
-        I will give you two strings. I want you to transform stringOne
-        into stringTwo one letter at a time.
+          For example:
 
-        Example:
+          capitalize("abcdef",[1,2,5]) = "aBCdeF"
+          capitalize("abcdef",[1,2,5,100]) = "aBCdeF". There is no index 100.
+          The input will be a lowercase string with no spaces and an array
+          of digits.
 
-        stringOne = 'bubble gum';
-        stringTwo = 'turtle ham';
+          Good luck!
 
-        Result:
-        bubble gum
-        tubble gum
-        turble gum
-        turtle gum
-        turtle hum
-        turtle ham
+          Be sure to also try:
+
+          Alternate capitalization
+
+          String array revisal

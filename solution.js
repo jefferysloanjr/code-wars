@@ -1,13 +1,9 @@
 'use strict';
 
-// solution for mutate my string with green passing.
+// solution for indexed capitalization with green passing.
 
-function high(str){
-  return str.split(' ')
-            .sort((a,b)=>calc(a)<calc(b))[0]
-}
-
-function calc(word) {
-  return [...word].map(e=>e.charCodeAt(0)-96)
-                  .reduce((x,y)=>x+y, 0)
-}
+function capitalize(s,arr){
+ return [s].reduce(acc => {
+	arr.forEach(val => { if (acc[val]) acc[val] = acc[val].toUpperCase()});
+  return acc.join('')},s.split(''));
+};
